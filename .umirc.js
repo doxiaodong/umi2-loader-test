@@ -1,4 +1,5 @@
 export default {
+  urlLoaderExcludes: [/\.pug$/],
   chainWebpack(config) {
     config.module
       .rule('pug-template')

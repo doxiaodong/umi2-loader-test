@@ -9,7 +9,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.pug?$/,
+        test: /\.pug$/,
         use: 'pug-loader'
       },
       {
